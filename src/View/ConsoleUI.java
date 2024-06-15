@@ -166,6 +166,7 @@ public class ConsoleUI implements View {
                 System.out.println("Введите месяц смерти существа");
                 deathMonth = scanner.nextLine();
             }
+
             while (!checkInt(deathYear)) {
                 System.out.println("Введите год смерти существа");
                 deathYear = scanner.nextLine();
